@@ -1,14 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T11:22:30.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="4WIxMydWDjZWuzactXng" version="16.6.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-21T12:17:25.681Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ZPgeC-kzDyYr-MJIC_n8" version="16.6.7" type="github" pages="3">
   <diagram id="0hKhgV95uKddXoEig--i" name="Page-1">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1051" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="U18zgkVNU66OQ-X3CO4i-1" value="&lt;h1&gt;Add Aggregation Service&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Maximum Latency : 30 sec&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;data need to be kept for 2 years&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;Tool: Show data for 30 sec ago&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;log(ad_Id, userId, event_type)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;event_type : clicked, shown&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;7days, 7 days - Report&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="50" width="350" height="250" as="geometry" />
+        <mxCell id="GNEX0H65wXsetsIJojC--22" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="270" y="940" width="150" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="U18zgkVNU66OQ-X3CO4i-2" value="&lt;h1&gt;overall Plan&lt;/h1&gt;&lt;p&gt;IOT, Timeseries :&amp;nbsp;&lt;/p&gt;&lt;p&gt;TimeSeries : Fast Storage , Moves to slow storage,&amp;nbsp;&lt;/p&gt;&lt;p&gt;data, timestamp :&amp;nbsp;&lt;/p&gt;&lt;p&gt;Available for 2 years : Data&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Insertion :&amp;nbsp;&lt;/p&gt;&lt;p&gt;Viewing Service :&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="470" y="50" width="330" height="250" as="geometry" />
+        <mxCell id="U18zgkVNU66OQ-X3CO4i-1" value="&lt;h1&gt;Add Aggregation Service&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Maximum Latency : 30 sec&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;data need to be kept for 2 years&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;Tool: Show data for 30 sec ago&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;log(ad_Id, userId, event_type)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;event_type : clicked, shown&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;7days, 7 days - Report&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;200 billion events / day - AVG&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;Peak : 2x AVG&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;50 million Ads&amp;nbsp; - :&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;10 million advertiser :&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="50" width="350" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="U18zgkVNU66OQ-X3CO4i-2" value="&lt;h1&gt;overall Plan&lt;/h1&gt;&lt;p&gt;IOT, Timeseries :&amp;nbsp;&lt;/p&gt;&lt;p&gt;TimeSeries : Fast Storage , Moves to slow storage,&amp;nbsp;&lt;/p&gt;&lt;p&gt;data, timestamp :&amp;nbsp;&lt;/p&gt;&lt;p&gt;Available for 2 years : Data&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Insertion :&amp;nbsp;&lt;/p&gt;&lt;p&gt;Viewing Service :&amp;nbsp;&lt;/p&gt;&lt;p&gt;ACL service - Map: advertiser : adIds&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="50" width="330" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--3" value="Time series -&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="880" y="690" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--4" value="Ads LifeCycle DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="90" y="705" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--5" value="&lt;h1&gt;SQL Table&lt;/h1&gt;&lt;p&gt;Ad LifeCycle.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--7" value="&lt;h1&gt;&lt;span&gt;optimised TimeSeries&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span&gt;- data, Timestamp - shards ad - Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;200 B - 200 * 1000^3&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;1 - 10 KB&amp;nbsp; : add_Id, event_type , userId , timestamp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;10 TB - &amp;gt; day -&amp;gt; 70 TB/Week&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;700 GB / Shard -&amp;gt; 100 shards&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;100 GB SSD /week&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;400 days : 100 GB /day : 30000 GB/ Month - 40 TB/ year&lt;/div&gt;&lt;div&gt;80 TB Hard storage /Shard:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;8000 TB accross all shaards -&amp;gt; 8PB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ram : 1ms SSD : 10-100 ms&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Inserts : 200 Billion : 2 billion write / day&lt;/div&gt;&lt;div&gt;100k sec/day&lt;/div&gt;&lt;div&gt;2 * 1000^3&lt;/div&gt;&lt;div&gt;2 * 100 * 1000 - 200,000 writes /sec/shard&lt;/div&gt;&lt;div&gt;Master / slave -&amp;gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="830" y="80" width="600" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--8" value="LB" style="triangle;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1090" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--9" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--10" value="Tool - ad graphs" style="triangle;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1100" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--11" value="Events -&amp;nbsp;&lt;br&gt;&lt;span style=&quot;font-size: medium ; text-align: left&quot;&gt;log(ad_Id, userId, event_type)&lt;br&gt;200 billion aads&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1205" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--12" value="Ads Lifecycle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1205" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--13" value="CRUD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="980" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="770" y="965" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.216;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.725;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="GNEX0H65wXsetsIJojC--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="818" y="975.04" as="sourcePoint" />
+            <mxPoint x="830" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.8;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GNEX0H65wXsetsIJojC--3" target="GNEX0H65wXsetsIJojC--15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="1040" as="sourcePoint" />
+            <mxPoint x="830" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--18" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="810" y="1120" as="sourcePoint" />
+            <mxPoint x="840" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--20" value="inmemory cached application srerver" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="290" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--21" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1120" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GNEX0H65wXsetsIJojC--23" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="770" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
