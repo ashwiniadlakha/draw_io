@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T09:23:41.039Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="2de0PNBgCPofyC5YbkF1" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T09:40:47.384Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qppDdwWoaWuN5qPoMiwK" version="20.4.1" type="github">
   <diagram id="ESVllcB8Czw5obN8dHQh" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,9 +16,6 @@
         <mxCell id="OnPrwDMXdIiLWSFRV_nR-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="580" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OnPrwDMXdIiLWSFRV_nR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OnPrwDMXdIiLWSFRV_nR-5" target="OnPrwDMXdIiLWSFRV_nR-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="OnPrwDMXdIiLWSFRV_nR-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="460" width="30" height="60" as="geometry" />
         </mxCell>
@@ -29,10 +26,10 @@
           <mxGeometry x="510" y="410" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OnPrwDMXdIiLWSFRV_nR-9" value="&lt;h1&gt;Writes&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="810" y="480" width="190" height="120" as="geometry" />
+          <mxGeometry x="1100" y="360" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="OnPrwDMXdIiLWSFRV_nR-10" value="&lt;h1&gt;Read&lt;/h1&gt;&lt;p&gt;&amp;nbsp;polling :&amp;nbsp; 5 sec&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Web Sockets :&amp;nbsp; 500 M&lt;/p&gt;&lt;p&gt;1 machine : 16 bit ports&lt;/p&gt;&lt;p&gt;1 machine : 64 k ~ 50K SOCKETS MAACHINE&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="890" width="310" height="210" as="geometry" />
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-10" value="&lt;h1&gt;Read&lt;/h1&gt;&lt;p&gt;&amp;nbsp;polling :&amp;nbsp; 5 sec&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Web Sockets :&amp;nbsp; 500 M&lt;/p&gt;&lt;p&gt;1 machine : 16 bit ports&lt;/p&gt;&lt;p&gt;1 machine : 64 k ~ 50K SOCKETS MACHINE&lt;/p&gt;&lt;p&gt;1 web application -&amp;gt; webap1-addr1 = &amp;gt; user1 -android&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; webap 2 - addr2 -&amp;gt; user1 -&amp;gt; laptop&lt;br&gt;&lt;/p&gt;&lt;p&gt;3 web app -&amp;gt; webaapp3 - addr 1 -&amp;gt; user1- ios&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="940" width="310" height="330" as="geometry" />
         </mxCell>
         <mxCell id="OnPrwDMXdIiLWSFRV_nR-11" value="Read LB" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="690" width="120" height="60" as="geometry" />
@@ -40,8 +37,50 @@
         <mxCell id="OnPrwDMXdIiLWSFRV_nR-12" value="Read" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="490" y="660" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OnPrwDMXdIiLWSFRV_nR-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="560" width="120" height="60" as="geometry" />
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-16" value="Databaase&lt;br&gt;CHAT -&amp;gt; sender, reciever, timestamp&lt;br&gt;readRecipts - user, readTimestamp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="335" width="290" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-18" value="Write : message,&amp;nbsp; reciever, timestamp, sender token,&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="545" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-19" value="PUBSUB : Notication" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OnPrwDMXdIiLWSFRV_nR-12" target="OnPrwDMXdIiLWSFRV_nR-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="760" as="sourcePoint" />
+            <mxPoint x="670" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-22" value="KV store&amp;nbsp;&lt;br&gt;Maintain active websocketConnections" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="570" y="790" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.7;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.014;exitY=0.219;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OnPrwDMXdIiLWSFRV_nR-22" target="OnPrwDMXdIiLWSFRV_nR-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="890" as="sourcePoint" />
+            <mxPoint x="490" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-24" value="10000 shards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="760" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.809;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OnPrwDMXdIiLWSFRV_nR-12" target="OnPrwDMXdIiLWSFRV_nR-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="730" as="sourcePoint" />
+            <mxPoint x="680" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-26" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.01;entryY=0.443;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OnPrwDMXdIiLWSFRV_nR-8" target="OnPrwDMXdIiLWSFRV_nR-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="670" as="sourcePoint" />
+            <mxPoint x="680" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OnPrwDMXdIiLWSFRV_nR-8" target="OnPrwDMXdIiLWSFRV_nR-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="670" as="sourcePoint" />
+            <mxPoint x="680" y="620" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
