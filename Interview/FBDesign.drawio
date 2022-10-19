@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T08:39:42.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="EoGbRoqAS_ehdCvJazzv" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-19T08:51:42.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BFGv0TUw1k6bi1csyzDk" version="20.4.1" type="github" pages="2">
   <diagram id="ESVllcB8Czw5obN8dHQh" name="Page-1">
     <mxGraphModel dx="901" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -90,8 +90,65 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VCs4Zbao1CasMJ0TSp6X-1" value="&lt;h1&gt;Requirements&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) Instagram&lt;/div&gt;&lt;div&gt;2). User upload photo&lt;/div&gt;&lt;div&gt;3) User follows users&lt;/div&gt;&lt;div&gt;4) Feed of the users user is following&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Chronological ranking&lt;/div&gt;&lt;div&gt;Feed is samae across platform&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;scale :&lt;/div&gt;&lt;div&gt;1B user&lt;/div&gt;&lt;div&gt;~200 M user active&lt;/div&gt;&lt;div&gt;10 photos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="60" width="340" height="310" as="geometry" />
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-1" value="&lt;h1&gt;Requirements&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) Instagram&lt;/div&gt;&lt;div&gt;2). User upload photo&lt;/div&gt;&lt;div&gt;3) User follows users&lt;/div&gt;&lt;div&gt;4) Feed of the users user is following&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Chronological ranking&lt;/div&gt;&lt;div&gt;Feed is same across platform&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;scale :&lt;/div&gt;&lt;div&gt;1B user&lt;/div&gt;&lt;div&gt;~200 M user active&lt;/div&gt;&lt;div&gt;10 photos&lt;/div&gt;&lt;div&gt;reaasonable aassumption for multi geograpgies&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 B writes / days&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CDN for photos Id&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-2" value="&lt;h1&gt;200 M * 10 Photos&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;200 * 1000^ 2 ^ 10&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 B writes / days&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="471" y="50" width="340" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-4" value="CDN" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-5" value="LB" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="740" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-7" value="Post Photo" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-8" value="DB&lt;br&gt;POSTS - userid , cdnId, timestamp, postText&lt;br&gt;Users - user , connectedUser" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="680" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-3" target="VCs4Zbao1CasMJ0TSp6X-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-3" target="VCs4Zbao1CasMJ0TSp6X-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.833;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-5" target="VCs4Zbao1CasMJ0TSp6X-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-7" target="VCs4Zbao1CasMJ0TSp6X-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-13" value="Create" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-15" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="920" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-16" value="Read" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-17" value="&lt;h1&gt;Quering master DB for Reaad Feeds&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for every request , generating feed&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Generating feed might be time taking&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1091" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-18" value="&lt;h1&gt;Seperate Feed DB&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;More data is required&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;no logic required for generating feeds as it is previously generated&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1070" width="190" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
