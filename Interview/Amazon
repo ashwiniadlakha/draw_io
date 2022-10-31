@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T08:26:14.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Tmu7XFb04YHsHrCzf11b" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T08:30:18.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hP9W2-CBiASBDjX-Rq_H" version="20.5.1" type="github">
   <diagram id="I7TRNI-L856pp_mn3vgN" name="Page-1">
-    <mxGraphModel dx="946" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="SJKYtKuhjUpxBQsrbRoi-13" value="PUBUBFacatory- PUBUB1Facatory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SJKYtKuhjUpxBQsrbRoi-11">
           <mxGeometry y="30" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SJKYtKuhjUpxBQsrbRoi-14" value="SendMessage(String Message, Strig Topic)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SJKYtKuhjUpxBQsrbRoi-11">
+        <mxCell id="SJKYtKuhjUpxBQsrbRoi-14" value="SendMessage(String Message, String Topic)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SJKYtKuhjUpxBQsrbRoi-11">
           <mxGeometry y="60" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SJKYtKuhjUpxBQsrbRoi-16" value="PUBSUB1- ConnecttonFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
