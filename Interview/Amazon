@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T08:17:17.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KA5akwkmnJOKaNJPtslE" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T08:26:14.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Tmu7XFb04YHsHrCzf11b" version="20.5.1" type="github">
   <diagram id="I7TRNI-L856pp_mn3vgN" name="Page-1">
     <mxGraphModel dx="946" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SJKYtKuhjUpxBQsrbRoi-1" value="&lt;h1&gt;Require&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(33, 47, 62); font-family: Ember, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;Design a reliable Pub sub-framework for company-wide use at scale.&lt;br&gt;&lt;br&gt;Might be using a critical business functions&lt;br&gt;No loss of messages&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(33, 47, 62); font-family: Ember, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;Version as meta data - IMP&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(33, 47, 62); font-family: Ember, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(33, 47, 62); font-family: Ember, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;Scale: 1 million messages / sec - 10 KB&lt;/p&gt;&lt;p&gt;1000 ^2 10 KB -&amp;gt; MB-&amp;gt; GB&lt;/p&gt;&lt;p&gt;10 GB / sec&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Cloud kind&lt;/p&gt;&lt;p&gt;no worries&amp;nbsp; In blllinnng&lt;/p&gt;&lt;p&gt;Quota system -&amp;nbsp;&lt;/p&gt;&lt;p&gt;near realime and up to 15min&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="90" width="300" height="420" as="geometry" />
+          <mxGeometry x="60" y="120" width="300" height="420" as="geometry" />
         </mxCell>
         <mxCell id="SJKYtKuhjUpxBQsrbRoi-2" value="&lt;h1&gt;PUB SUB&lt;/h1&gt;&lt;p&gt;Consumer&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Producer -&amp;nbsp;&lt;/p&gt;&lt;p&gt;String Messge,&amp;nbsp; String Topic,&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Properties&lt;/p&gt;&lt;p&gt;Topic Name&amp;nbsp;&lt;/p&gt;&lt;p&gt;Consumer Group -&amp;nbsp;&lt;/p&gt;&lt;p&gt;Message : - Offset&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;5 (1 2 3 4 5)&lt;/p&gt;&lt;p&gt;A - CG1&amp;nbsp; - 2&lt;/p&gt;&lt;p&gt;A - CG2 - 1&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;shards - Replication&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="100" width="250" height="530" as="geometry" />
@@ -86,6 +86,18 @@
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SJKYtKuhjUpxBQsrbRoi-31" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SJKYtKuhjUpxBQsrbRoi-28">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SJKYtKuhjUpxBQsrbRoi-32" value="Pub SubConfiguration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1350" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SJKYtKuhjUpxBQsrbRoi-33" value="Topic 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SJKYtKuhjUpxBQsrbRoi-32">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SJKYtKuhjUpxBQsrbRoi-34" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SJKYtKuhjUpxBQsrbRoi-32">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SJKYtKuhjUpxBQsrbRoi-35" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SJKYtKuhjUpxBQsrbRoi-32">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
