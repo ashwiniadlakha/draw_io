@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T17:15:03.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="NLm3SmJlbJOpmlspIraC" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-20T17:19:42.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UUl4p6UXteyFDobQnSWu" version="20.8.20" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
           <mxGeometry x="125" y="100" width="10" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="RP4racBo4VcpyrWZwj4r-11" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="7baba1c4bc27f4b0-2">
+        <mxCell id="RP4racBo4VcpyrWZwj4r-11" value="DB Auditing" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="7baba1c4bc27f4b0-2">
           <mxGeometry x="110" y="110" width="185" height="90" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" value="Kafka" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
@@ -23,7 +23,7 @@
           <mxGeometry x="45" y="250" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" value="Insurance Partner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="860" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="880" y="80" width="100" height="610" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" value="Suraksha Platform" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="100" height="580" as="geometry" />
@@ -82,12 +82,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RP4racBo4VcpyrWZwj4r-20" value="Insurance Platform" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="740" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="720" y="80" width="140" height="680" as="geometry" />
         </mxCell>
         <mxCell id="RP4racBo4VcpyrWZwj4r-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="RP4racBo4VcpyrWZwj4r-20">
-          <mxGeometry x="45" y="260" width="10" height="170" as="geometry" />
+          <mxGeometry x="65" y="260" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="RP4racBo4VcpyrWZwj4r-22" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="RP4racBo4VcpyrWZwj4r-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="RP4racBo4VcpyrWZwj4r-20">
+          <mxGeometry x="65" y="505" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RP4racBo4VcpyrWZwj4r-28" value="Syncing pollicy issued" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="RP4racBo4VcpyrWZwj4r-20">
+          <mxGeometry x="50" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RP4racBo4VcpyrWZwj4r-22" value="Self policy Issuance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RP4racBo4VcpyrWZwj4r-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -110,6 +116,12 @@
         <mxCell id="RP4racBo4VcpyrWZwj4r-26" value="Consume from Topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RP4racBo4VcpyrWZwj4r-25">
           <mxGeometry x="0.3414" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RP4racBo4VcpyrWZwj4r-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="RP4racBo4VcpyrWZwj4r-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="430" as="sourcePoint" />
+            <mxPoint x="930" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
