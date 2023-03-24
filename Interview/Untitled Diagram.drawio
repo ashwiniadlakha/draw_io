@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T09:54:25.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="oFQBJMLRqpfptMM4Xzwh" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T09:56:00.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="i79hlntj0R5LaDE7B_JC" version="20.8.20" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -76,9 +76,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RP4racBo4VcpyrWZwj4r-19" value="Insurance Consumer&amp;nbsp;&lt;br&gt;Topic :&amp;nbsp;bundle_partner_issuance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RP4racBo4VcpyrWZwj4r-18">
+        <mxCell id="RP4racBo4VcpyrWZwj4r-19" value="Insurance Consumer&amp;nbsp;&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RP4racBo4VcpyrWZwj4r-18">
           <mxGeometry x="0.1002" y="-2" relative="1" as="geometry">
-            <mxPoint x="119" y="-32" as="offset" />
+            <mxPoint x="-1" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RP4racBo4VcpyrWZwj4r-20" value="Insurance Platform" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
@@ -102,9 +102,9 @@
             <mxPoint x="670" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RP4racBo4VcpyrWZwj4r-24" value="Produce polcy issuance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RP4racBo4VcpyrWZwj4r-23">
+        <mxCell id="RP4racBo4VcpyrWZwj4r-24" value="Produce polcy issuance&lt;br&gt;Topic :&amp;nbsp;bundle_partner_issuance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RP4racBo4VcpyrWZwj4r-23">
           <mxGeometry x="0.2909" relative="1" as="geometry">
-            <mxPoint x="11" y="20" as="offset" />
+            <mxPoint x="51" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RP4racBo4VcpyrWZwj4r-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.2;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-9">
