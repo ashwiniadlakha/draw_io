@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T07:16:29.634Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.2.9" etag="s0MmqgvCxM5DthDYClCy" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T07:23:27.188Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="8paZBFcxK_h99NQhXrlg" version="21.2.9" type="github">
   <diagram name="Page-1" id="df_ze7xgcm3t2_Z0U3iS">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="30" width="260" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="470" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-3" value="10.241.122.16&lt;br&gt;&lt;br&gt;Copy of SFTP Data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="370" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-2" value="10.241.246.81&lt;br&gt;&lt;br&gt;Copy of SFTP Data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="97.5" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-1" value="10.241.246.80&lt;br&gt;&lt;br&gt;Master Data of SFTP Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="95" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-4" value="IP Not Allocated" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="627.5" y="92.5" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-6" value="IP Not Allocated" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="627.5" y="370" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.993;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.679;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DVPIaNu0drkTA2Jsw-YP-1" target="DVPIaNu0drkTA2Jsw-YP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DVPIaNu0drkTA2Jsw-YP-1" target="DVPIaNu0drkTA2Jsw-YP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
