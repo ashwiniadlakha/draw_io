@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T07:24:17.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7bT-LXE_Sz6FCWxNO5q5" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T07:25:42.495Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="nY8Pki7mYqrKC3U3Pest" version="21.2.9" type="github">
   <diagram name="Page-1" id="df_ze7xgcm3t2_Z0U3iS">
     <mxGraphModel dx="1194" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,10 +19,10 @@
         <mxCell id="DVPIaNu0drkTA2Jsw-YP-1" value="10.241.246.80&lt;br&gt;&lt;br&gt;Master Data of SFTP Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="50" y="95" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="DVPIaNu0drkTA2Jsw-YP-4" value="IP Not Allocated" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-4" value="IP Not Allocated&lt;br&gt;&lt;br&gt;Copy of SFTP Data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="627.5" y="92.5" width="145" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="DVPIaNu0drkTA2Jsw-YP-6" value="IP Not Allocated" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-6" value="IP Not Allocated&lt;br&gt;&lt;br&gt;Copy of SFTP Data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="627.5" y="370" width="145" height="145" as="geometry" />
         </mxCell>
         <mxCell id="DVPIaNu0drkTA2Jsw-YP-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.993;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.679;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DVPIaNu0drkTA2Jsw-YP-1" target="DVPIaNu0drkTA2Jsw-YP-2">
@@ -37,8 +37,23 @@
             <mxPoint x="450" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DVPIaNu0drkTA2Jsw-YP-11" value="Datacenter at Noida Phase 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Datacenter at Noida Phase 2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="570" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Datacenter at Pune&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="570" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DVPIaNu0drkTA2Jsw-YP-3" target="DVPIaNu0drkTA2Jsw-YP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVPIaNu0drkTA2Jsw-YP-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="DVPIaNu0drkTA2Jsw-YP-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
