@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T08:24:30.949Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="X3gSv9AJmjtllmgwa7ai" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T09:32:04.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="d0CoqG6YO2RKRCOA8gh2" version="21.3.5" type="github">
   <diagram name="Page-1" id="nM72WajhEa3cOTkmUVcP">
     <mxGraphModel dx="1194" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,9 +22,9 @@
             <mxPoint x="500" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="abmXcivrycV-v_4Pk3xf-26" value="Fetch details by pan number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="abmXcivrycV-v_4Pk3xf-5" vertex="1" connectable="0">
+        <mxCell id="abmXcivrycV-v_4Pk3xf-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Fetch details by pan number&lt;br&gt;/&lt;a style=&quot;border-color: var(--border-color); color: rgb(0, 82, 204); text-decoration: var(--aui-link-decoration); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left;&quot; rel=&quot;nofollow&quot; class=&quot;external-link&quot; href=&quot;https://10.56.110.178:8093/api/v1/insurance/twoWheeler/mitra/ckycSearch&quot;&gt;ckycSearch&lt;/a&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="abmXcivrycV-v_4Pk3xf-5" vertex="1" connectable="0">
           <mxGeometry x="-0.4114" y="-2" relative="1" as="geometry">
-            <mxPoint x="26" y="7" as="offset" />
+            <mxPoint x="31" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="abmXcivrycV-v_4Pk3xf-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" source="abmXcivrycV-v_4Pk3xf-1" target="abmXcivrycV-v_4Pk3xf-2" edge="1">
@@ -72,9 +72,9 @@
             <mxPoint x="470" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="abmXcivrycV-v_4Pk3xf-25" value="Fetch Details by aadhar number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="abmXcivrycV-v_4Pk3xf-12" vertex="1" connectable="0">
+        <mxCell id="abmXcivrycV-v_4Pk3xf-25" value="Fetch Details by aadhar number&lt;br&gt;/&lt;a style=&quot;border-color: var(--border-color); font-size: 10px; color: rgb(0, 82, 204); text-decoration: var(--aui-link-decoration); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left;&quot; rel=&quot;nofollow&quot; class=&quot;external-link&quot; href=&quot;https://10.56.110.178:8093/api/v1/insurance/twoWheeler/mitra/ckycSearch&quot;&gt;ckycSearch&lt;/a&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="abmXcivrycV-v_4Pk3xf-12" vertex="1" connectable="0">
           <mxGeometry x="-0.3067" relative="1" as="geometry">
-            <mxPoint x="-2" y="10" as="offset" />
+            <mxPoint x="8" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="abmXcivrycV-v_4Pk3xf-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" edge="1">
@@ -113,9 +113,9 @@
             <mxPoint x="470" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="abmXcivrycV-v_4Pk3xf-27" value="Fetch details by aadhar doc upload" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="abmXcivrycV-v_4Pk3xf-17" vertex="1" connectable="0">
+        <mxCell id="abmXcivrycV-v_4Pk3xf-27" value="Fetch details by aadhar doc upload&lt;br&gt;/ckycDocumentUpload" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="abmXcivrycV-v_4Pk3xf-17" vertex="1" connectable="0">
           <mxGeometry x="-0.36" y="1" relative="1" as="geometry">
-            <mxPoint x="62" y="-19" as="offset" />
+            <mxPoint x="52" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="abmXcivrycV-v_4Pk3xf-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" edge="1">
