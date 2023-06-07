@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T09:32:04.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="d0CoqG6YO2RKRCOA8gh2" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T09:32:27.426Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="6EubNHIP-tIu7pj7pYli" version="21.3.5" type="github">
   <diagram name="Page-1" id="nM72WajhEa3cOTkmUVcP">
     <mxGraphModel dx="1194" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="abmXcivrycV-v_4Pk3xf-31" value="Audit CKYC id in DB&lt;br&gt;Table : Insurance&lt;br&gt;Column :&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="abmXcivrycV-v_4Pk3xf-30" vertex="1" connectable="0">
+        <mxCell id="abmXcivrycV-v_4Pk3xf-31" value="Use CKYC Id in Proposal API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="abmXcivrycV-v_4Pk3xf-30" vertex="1" connectable="0">
           <mxGeometry x="-0.1298" y="2" relative="1" as="geometry">
             <mxPoint x="17" y="22" as="offset" />
           </mxGeometry>
