@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T12:45:59.520Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-Re3DPCY_LeXipWwLS5R" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T13:00:25.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="eeMJzXiIUwwuMHRLdygc" version="21.3.8" type="github">
   <diagram name="Page-1" id="yWtgO1glUAgRH91HCU5n">
-    <mxGraphModel dx="1194" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,9 +118,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hWbqOJEptFSF6oSlvdW3-16" value="DB insert&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hWbqOJEptFSF6oSlvdW3-15">
+        <mxCell id="hWbqOJEptFSF6oSlvdW3-16" value="DB insert in table :&amp;nbsp;&amp;nbsp;bundle_insurances" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hWbqOJEptFSF6oSlvdW3-15">
           <mxGeometry x="-0.2125" y="3" relative="1" as="geometry">
-            <mxPoint y="-7" as="offset" />
+            <mxPoint x="16" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWbqOJEptFSF6oSlvdW3-17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="hWbqOJEptFSF6oSlvdW3-1" target="hWbqOJEptFSF6oSlvdW3-2">
@@ -132,9 +132,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hWbqOJEptFSF6oSlvdW3-18" value="Policy issuace via kafka" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hWbqOJEptFSF6oSlvdW3-17">
+        <mxCell id="hWbqOJEptFSF6oSlvdW3-18" value="Policy issuace via kafka TOPIC:&amp;nbsp;actor-subscription-fulfilment-topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hWbqOJEptFSF6oSlvdW3-17">
           <mxGeometry x="-0.0978" y="3" relative="1" as="geometry">
-            <mxPoint y="-7" as="offset" />
+            <mxPoint x="13" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWbqOJEptFSF6oSlvdW3-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
@@ -146,7 +146,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hWbqOJEptFSF6oSlvdW3-23" value="DB insert&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hWbqOJEptFSF6oSlvdW3-22">
+        <mxCell id="hWbqOJEptFSF6oSlvdW3-23" value="DB insert in Table : Insurance&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hWbqOJEptFSF6oSlvdW3-22">
           <mxGeometry x="-0.2125" y="3" relative="1" as="geometry">
             <mxPoint y="-7" as="offset" />
           </mxGeometry>
