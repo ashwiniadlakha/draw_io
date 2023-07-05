@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T10:56:21.502Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WopUgMeF3iH0Sv_F8rLJ" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T10:59:15.857Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4vX7sV0iTApjK8vwEmMo" version="21.3.8" type="github">
   <diagram name="Page-1" id="yWtgO1glUAgRH91HCU5n">
     <mxGraphModel dx="1194" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hWbqOJEptFSF6oSlvdW3-1" value="Merchant Onboarding Team" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="40" y="140" width="100" height="470" as="geometry" />
+          <mxGeometry x="40" y="140" width="100" height="560" as="geometry" />
         </mxCell>
         <mxCell id="hWbqOJEptFSF6oSlvdW3-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hWbqOJEptFSF6oSlvdW3-1">
           <mxGeometry x="50" y="400" width="10" height="40" as="geometry" />
@@ -20,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hWbqOJEptFSF6oSlvdW3-2" value="Insurance - Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="500" y="140" width="100" height="470" as="geometry" />
+          <mxGeometry x="500" y="140" width="100" height="560" as="geometry" />
         </mxCell>
         <mxCell id="hWbqOJEptFSF6oSlvdW3-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hWbqOJEptFSF6oSlvdW3-2">
           <mxGeometry x="45" y="140" width="10" height="40" as="geometry" />
@@ -39,10 +39,10 @@
           <mxGeometry x="45" y="300" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hWbqOJEptFSF6oSlvdW3-3" value="Insurance - Schedular" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="620" y="140" width="100" height="470" as="geometry" />
+          <mxGeometry x="620" y="140" width="100" height="560" as="geometry" />
         </mxCell>
         <mxCell id="hWbqOJEptFSF6oSlvdW3-4" value="Oracle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="740" y="140" width="100" height="470" as="geometry" />
+          <mxGeometry x="740" y="140" width="100" height="560" as="geometry" />
         </mxCell>
         <mxCell id="hWbqOJEptFSF6oSlvdW3-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="hWbqOJEptFSF6oSlvdW3-1" target="hWbqOJEptFSF6oSlvdW3-2">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -122,6 +122,20 @@
         </mxCell>
         <mxCell id="hWbqOJEptFSF6oSlvdW3-18" value="Policy issuace via kafka" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hWbqOJEptFSF6oSlvdW3-17">
           <mxGeometry x="-0.0978" y="3" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWbqOJEptFSF6oSlvdW3-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="660" as="sourcePoint" />
+            <mxPoint x="790" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWbqOJEptFSF6oSlvdW3-23" value="DB insert&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hWbqOJEptFSF6oSlvdW3-22">
+          <mxGeometry x="-0.2125" y="3" relative="1" as="geometry">
             <mxPoint y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
