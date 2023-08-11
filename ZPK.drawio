@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T06:00:52.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="hzpmQ1FHJu1LXigd_5D5" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T06:15:30.043Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="746C4vxE0MhdCuDziDi8" version="21.5.2" type="github">
   <diagram name="Page-1" id="uRS-4dnA5tTWZrqMPb3B">
     <mxGraphModel dx="1194" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oRkRxlqvO-P2URN3C91w-5" value="Euronet" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="270" width="80" height="80" as="geometry" />
+          <mxGeometry x="670" y="270" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oRkRxlqvO-P2URN3C91w-6" value="&lt;h1&gt;Get ATM Pin&lt;/h1&gt;&lt;div&gt;MPIN in plain text, encrypt the MPIN via public key by HSM send to backend via API&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="330" width="190" height="120" as="geometry" />
@@ -22,7 +22,7 @@
         <mxCell id="oRkRxlqvO-P2URN3C91w-7" value="Cards Thanks App service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="370" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oRkRxlqvO-P2URN3C91w-8" value="&lt;h1&gt;Get ATM PIN and send to partner&lt;/h1&gt;&lt;div&gt;Get value of MPIN in encrypted format, call the HSmm with encrypted value and decrytion&lt;br&gt;&lt;br&gt;API for public encrytion to be given to&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oRkRxlqvO-P2URN3C91w-8" value="&lt;h1&gt;Get ATM PIN and send to partner&lt;/h1&gt;&lt;div&gt;Get value of ATM PIN in encrypted format, call the HSmm with encrypted value and decrytion&lt;br&gt;&lt;br&gt;API for public encrytion to be given to&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="315" y="500" width="190" height="210" as="geometry" />
         </mxCell>
       </root>
