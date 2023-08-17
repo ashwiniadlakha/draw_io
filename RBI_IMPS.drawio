@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T08:09:34.161Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YlucdTPY4IBV963zI5md" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T08:11:18.039Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="XkZuvoCIDxwJqb7ZqJ1n" version="21.5.2" type="github">
   <diagram name="Page-1" id="vNcc59VQCfEPZOvDmemR">
     <mxGraphModel dx="2442" dy="1956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,13 +22,13 @@
         <mxCell id="Pld-RQmMGz8kok_W18LP-18" value="Load Balancer : NGINX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="75" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-20" value="Oracle DB&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="Pld-RQmMGz8kok_W18LP-20" value="Oracle DB&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FF99CC;" vertex="1" parent="1">
           <mxGeometry x="830" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-21" value="Kafka" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="285" width="120" height="60" as="geometry" />
+        <mxCell id="Pld-RQmMGz8kok_W18LP-21" value="Kafka" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="832.5" y="285" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-22" value="NPCI" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="Pld-RQmMGz8kok_W18LP-22" value="NPCI" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="1230" y="145" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.013;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.027;exitY=0.076;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Pld-RQmMGz8kok_W18LP-19" target="Pld-RQmMGz8kok_W18LP-20">
@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-29" value="http://apb-kafka-conf5-ndr.airtelbank.com:9092" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="822.5" y="255" width="270" height="30" as="geometry" />
+          <mxGeometry x="735" y="250" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-30" value="apbdb-ndr.airtelbank.com:1555/DMTDB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="750" y="20" width="230" height="30" as="geometry" />
@@ -82,13 +82,13 @@
         <mxCell id="Pld-RQmMGz8kok_W18LP-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pld-RQmMGz8kok_W18LP-67" target="Pld-RQmMGz8kok_W18LP-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-74" value="DMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Pld-RQmMGz8kok_W18LP-74" value="DMT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="-100" y="140" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-76" value="&lt;h1&gt;OUTWARD&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="-170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-78" value="10.241.245.221&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+        <mxCell id="Pld-RQmMGz8kok_W18LP-78" value="10.241.245.221&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
           <mxGeometry x="952.5" y="420" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-79" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.003;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Pld-RQmMGz8kok_W18LP-80">
