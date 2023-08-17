@@ -1,32 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T07:57:08.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FUvpQk08HY-lImI2NkB9" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T08:09:34.161Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YlucdTPY4IBV963zI5md" version="21.5.2" type="github">
   <diagram name="Page-1" id="vNcc59VQCfEPZOvDmemR">
     <mxGraphModel dx="2442" dy="1956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Pld-RQmMGz8kok_W18LP-72" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1215" y="45" width="150" height="400" as="geometry" />
-        </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="-90" width="1260" height="690" as="geometry" />
         </mxCell>
+        <mxCell id="Pld-RQmMGz8kok_W18LP-80" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="400" width="145" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Pld-RQmMGz8kok_W18LP-72" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="-90" width="150" height="710" as="geometry" />
+        </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-60" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="130" width="130" height="250" as="geometry" />
+          <mxGeometry x="335" y="125" width="130" height="250" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="60" width="150" height="400" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-18" value="Load Balancer : NGINX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="275" y="80" width="150" height="30" as="geometry" />
+          <mxGeometry x="320" y="75" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-20" value="Oracle DB&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="830" y="40" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-21" value="Kafka" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="285" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-22" value="NPCI" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="205" width="120" height="80" as="geometry" />
+          <mxGeometry x="1230" y="145" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.013;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.027;exitY=0.076;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Pld-RQmMGz8kok_W18LP-19" target="Pld-RQmMGz8kok_W18LP-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -34,23 +37,23 @@
             <mxPoint x="530" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1.013;exitY=0.879;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Pld-RQmMGz8kok_W18LP-19">
+        <mxCell id="Pld-RQmMGz8kok_W18LP-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1.031;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pld-RQmMGz8kok_W18LP-19" target="Pld-RQmMGz8kok_W18LP-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="310" as="sourcePoint" />
             <mxPoint x="820" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.013;exitY=0.469;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Pld-RQmMGz8kok_W18LP-19" target="Pld-RQmMGz8kok_W18LP-22">
+        <mxCell id="Pld-RQmMGz8kok_W18LP-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.013;exitY=0.31;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Pld-RQmMGz8kok_W18LP-19" target="Pld-RQmMGz8kok_W18LP-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="310" as="sourcePoint" />
             <mxPoint x="530" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-29" value="http://apb-kafka-conf5-ndr.airtelbank.com:9092" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="755" y="460" width="270" height="30" as="geometry" />
+          <mxGeometry x="822.5" y="255" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-30" value="apbdb-ndr.airtelbank.com:1555/DMTDB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="750" y="130" width="230" height="30" as="geometry" />
+          <mxGeometry x="750" y="20" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-32" value="Server with Spring boot application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="20" width="210" height="30" as="geometry" />
@@ -62,7 +65,7 @@
           <mxGeometry x="565" y="110" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-58" value="10.241.245.131" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="300" y="160" width="120" height="50" as="geometry" />
+          <mxGeometry x="340" y="150" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-62" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-120" y="100" width="130" height="250" as="geometry" />
@@ -81,6 +84,21 @@
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-74" value="DMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="140" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pld-RQmMGz8kok_W18LP-76" value="&lt;h1&gt;OUTWARD&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pld-RQmMGz8kok_W18LP-78" value="10.241.245.221&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="952.5" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Pld-RQmMGz8kok_W18LP-79" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.003;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Pld-RQmMGz8kok_W18LP-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="421" as="sourcePoint" />
+            <mxPoint x="600" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pld-RQmMGz8kok_W18LP-81" value="CBS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="370" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
