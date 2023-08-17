@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T09:38:03.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eX4rI7KlYNj0rshFIPac" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T09:40:01.317Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5hHpuWeDjB0fe-4i9kNC" version="21.5.2" type="github">
   <diagram name="Page-1" id="vNcc59VQCfEPZOvDmemR">
     <mxGraphModel dx="2442" dy="1956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="Pld-RQmMGz8kok_W18LP-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="-90" width="1260" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-80" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="400" width="145" height="170" as="geometry" />
+        <mxCell id="Pld-RQmMGz8kok_W18LP-80" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;https://flexscan-ndr.airtelbank.com:60080&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="890" y="400" width="195" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-72" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1215" y="-90" width="150" height="710" as="geometry" />
@@ -47,6 +47,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="310" as="sourcePoint" />
             <mxPoint x="530" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pld-RQmMGz8kok_W18LP-98" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;https://10.14.251.224:443,&amp;nbsp;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pld-RQmMGz8kok_W18LP-26">
+          <mxGeometry x="-0.2777" y="-1" relative="1" as="geometry">
+            <mxPoint x="7" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Pld-RQmMGz8kok_W18LP-29" value="http://apb-kafka-conf5-ndr.airtelbank.com:9092" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -88,10 +93,7 @@
         <mxCell id="Pld-RQmMGz8kok_W18LP-76" value="&lt;h1&gt;OUTWARD&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="-170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-78" value="10.241.245.221&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
-          <mxGeometry x="952.5" y="420" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Pld-RQmMGz8kok_W18LP-79" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.003;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Pld-RQmMGz8kok_W18LP-80">
+        <mxCell id="Pld-RQmMGz8kok_W18LP-79" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="Pld-RQmMGz8kok_W18LP-80">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="421" as="sourcePoint" />
             <mxPoint x="600" y="130" as="targetPoint" />
