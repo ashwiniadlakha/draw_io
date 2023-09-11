@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T18:19:04.712Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="KJ4y435_86bsTOsPynRE" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T18:20:39.855Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CHRGIFgyZLtWjVMWNzD0" version="21.7.2" type="github">
   <diagram name="Page-1" id="kyI_1amHIWdgw4ZrkJxQ">
     <mxGraphModel dx="1194" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lCWfozKxFRcrKscHys-w-56" value="Get Email" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="lCWfozKxFRcrKscHys-w-48">
+        <mxCell id="lCWfozKxFRcrKscHys-w-56" value="Get/Send Email" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="lCWfozKxFRcrKscHys-w-48">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="55" y="1370" as="sourcePoint" />
             <mxPoint x="545" y="1370" as="targetPoint" />
