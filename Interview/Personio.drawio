@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T14:18:46.285Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2pw-gx51bceZv5XAvATI" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T17:47:06.958Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0YTv1FOrUB9ezjvbsML6" version="21.7.2" type="github">
   <diagram name="Page-1" id="kyI_1amHIWdgw4ZrkJxQ">
     <mxGraphModel dx="1194" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           <mxGeometry x="780" y="420" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lCWfozKxFRcrKscHys-w-12" value="Reminder Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="190" width="120" height="30" as="geometry" />
+          <mxGeometry x="540" y="80" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lCWfozKxFRcrKscHys-w-13" value="Mail Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="555" y="505" width="90" height="30" as="geometry" />
@@ -96,6 +96,21 @@
         </mxCell>
         <mxCell id="lCWfozKxFRcrKscHys-w-29" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="625" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.558;entryY=1.033;entryDx=0;entryDy=0;exitX=0.557;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="lCWfozKxFRcrKscHys-w-32" target="lCWfozKxFRcrKscHys-w-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="370" as="sourcePoint" />
+            <mxPoint x="590" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-32" value="Cross DC KV Store" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-33" value="Key - Read Hosts Domains" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lCWfozKxFRcrKscHys-w-32">
+          <mxGeometry y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-34" value="Value - CSV of domains with Master DBs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lCWfozKxFRcrKscHys-w-32">
+          <mxGeometry y="60" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
