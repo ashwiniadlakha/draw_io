@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T18:10:39.093Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="OMj-DRoca8yydG6mEAec" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T18:19:04.712Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="KJ4y435_86bsTOsPynRE" version="21.7.2" type="github">
   <diagram name="Page-1" id="kyI_1amHIWdgw4ZrkJxQ">
     <mxGraphModel dx="1194" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -174,6 +174,58 @@
         </mxCell>
         <mxCell id="lCWfozKxFRcrKscHys-w-47" value="Email Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="640" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-49" value="Reminder Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="250" y="1090" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-53" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Check Reminders Every 2.5 min" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1140" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-50" value="Mail Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="500" y="1090" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-48" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1090" width="20" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="lCWfozKxFRcrKscHys-w-48">
+          <mxGeometry x="5" y="110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-52" value="Check Reminder Scedular" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="lCWfozKxFRcrKscHys-w-51" parent="lCWfozKxFRcrKscHys-w-48">
+          <mxGeometry x="0.5652" y="10" relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="40" y="100" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-54" value="Sync Reminders" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.65;exitY=0.645;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lCWfozKxFRcrKscHys-w-48" target="lCWfozKxFRcrKscHys-w-49">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="520" y="1250" as="sourcePoint" />
+            <mxPoint x="600" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-55" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="lCWfozKxFRcrKscHys-w-49" target="lCWfozKxFRcrKscHys-w-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1250" as="sourcePoint" />
+            <mxPoint x="520" y="1250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-56" value="Get Email" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="lCWfozKxFRcrKscHys-w-48">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="1370" as="sourcePoint" />
+            <mxPoint x="545" y="1370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCWfozKxFRcrKscHys-w-57" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="1400" as="sourcePoint" />
+            <mxPoint x="65" y="1400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
