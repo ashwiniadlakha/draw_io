@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" modified="2023-11-10T08:47:34.612Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="OdBSbvHt2CSpujhaq3hI" version="22.1.0" type="github" pages="2">
+  <diagram id="ESVllcB8Czw5obN8dHQh" name="Page-1">
+    <mxGraphModel dx="1194" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-1" value="&lt;h1&gt;Requirements&lt;/h1&gt;&lt;p&gt;1) 50 M user&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="20" width="250" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-2" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;100 message/day -&amp;gt; 1kb&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;500 M users * 1KB * 100&lt;/div&gt;&lt;div&gt;1M = 1000 ^2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;500 00&amp;nbsp;&lt;/div&gt;&lt;div&gt;kb -&amp;gt; MB -&amp;gt; GB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;50 TB /day&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;500 M -&amp;gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="60" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="760" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="580" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-7" value="Write LB" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-8" value="Writes" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="510" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-9" value="&lt;h1&gt;Writes&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="360" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-10" value="&lt;h1&gt;Read&lt;/h1&gt;&lt;p&gt;&amp;nbsp;polling :&amp;nbsp; 5 sec&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;amp;&lt;/p&gt;&lt;p&gt;Web Sockets :&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="940" width="310" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-11" value="Read LB" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-12" value="Read" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="490" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-16" value="Databaase&lt;br&gt;CHAT -&amp;gt; sender, reciever, timestamp&lt;br&gt;readRecipts - user, readTimestamp" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="335" width="290" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-18" value="Write : message,&amp;nbsp; reciever, timestamp, sender token,&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="145" y="545" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-19" value="PUBSUB : Notication" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OnPrwDMXdIiLWSFRV_nR-12" target="OnPrwDMXdIiLWSFRV_nR-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="760" as="sourcePoint" />
+            <mxPoint x="670" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-22" value="KV store&amp;nbsp;&lt;br&gt;Maintain active websocketConnections" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="570" y="790" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.7;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.014;exitY=0.219;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OnPrwDMXdIiLWSFRV_nR-22" target="OnPrwDMXdIiLWSFRV_nR-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="890" as="sourcePoint" />
+            <mxPoint x="490" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-24" value="multiple shards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="900" y="760" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.809;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OnPrwDMXdIiLWSFRV_nR-12" target="OnPrwDMXdIiLWSFRV_nR-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="730" as="sourcePoint" />
+            <mxPoint x="680" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-26" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.01;entryY=0.443;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OnPrwDMXdIiLWSFRV_nR-8" target="OnPrwDMXdIiLWSFRV_nR-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="670" as="sourcePoint" />
+            <mxPoint x="680" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnPrwDMXdIiLWSFRV_nR-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="OnPrwDMXdIiLWSFRV_nR-8" target="OnPrwDMXdIiLWSFRV_nR-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="670" as="sourcePoint" />
+            <mxPoint x="680" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kOfmI5wOrvasCy3K0bVl" name="Page-2">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-1" value="&lt;h1&gt;Requirements&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) Instagram&lt;/div&gt;&lt;div&gt;2). User upload photo&lt;/div&gt;&lt;div&gt;3) User follows users&lt;/div&gt;&lt;div&gt;4) Feed of the users user is following&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Chronological ranking&lt;/div&gt;&lt;div&gt;Feed is same across platform&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;scale :&lt;/div&gt;&lt;div&gt;1B user&lt;/div&gt;&lt;div&gt;~200 M user active&lt;/div&gt;&lt;div&gt;10 photos&lt;/div&gt;&lt;div&gt;reaasonable aassumption for multi geograpgies&lt;/div&gt;&lt;div&gt;user is following 100 users&lt;br&gt;user is getting followed by 100 users&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 B writes / days&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CDN for photos Id&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-2" value="&lt;h1&gt;200 M * 10 Photos&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;200 * 1000^ 2 ^ 10&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 B writes / days&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 B - 200m Active&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;100 Other&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;200 B writes&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="472" y="50" width="340" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-4" value="CDN" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-5" value="LB" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="740" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-7" value="Post Photo&lt;br&gt;WEB APP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-8" value="User Posts DB&lt;br&gt;POSTS - Post ID, userid , cdnId, timestamp, postText&lt;br&gt;Users - user , connectedUser&lt;br&gt;FeedRequestsTime - User, timestamp&lt;br&gt;&lt;br&gt;CelebrityUserList : Userid" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="680" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-3" target="VCs4Zbao1CasMJ0TSp6X-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-3" target="VCs4Zbao1CasMJ0TSp6X-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.833;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-5" target="VCs4Zbao1CasMJ0TSp6X-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-7" target="VCs4Zbao1CasMJ0TSp6X-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-13" value="Create" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-15" value="LB" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="990" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-16" value="Read FEED&amp;nbsp;&lt;br&gt;Web APPs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-17" value="&lt;h1&gt;Quering master DB for Reaad Feeds&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for every request , generating feed&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Generating feed might be time taking&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1140" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-18" value="&lt;h1&gt;Seperate Feed DB&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;More data is required&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;no logic required for generating feeds as it is previously generated&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1140" width="190" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-19" value="FEED DB&lt;br&gt;Feeds - &amp;gt; User , Posts" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="551" y="1000" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="VCs4Zbao1CasMJ0TSp6X-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="810" as="sourcePoint" />
+            <mxPoint x="160" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-21" value="PUBSUB" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-7" target="VCs4Zbao1CasMJ0TSp6X-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1000" as="sourcePoint" />
+            <mxPoint x="550" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.625;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-21" target="VCs4Zbao1CasMJ0TSp6X-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1000" as="sourcePoint" />
+            <mxPoint x="550" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-24" value="" style="endArrow=none;html=1;rounded=0;exitX=0.385;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-19" target="VCs4Zbao1CasMJ0TSp6X-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1000" as="sourcePoint" />
+            <mxPoint x="550" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.9;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-15" target="VCs4Zbao1CasMJ0TSp6X-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1000" as="sourcePoint" />
+            <mxPoint x="550" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0.583;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.074;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-16" target="VCs4Zbao1CasMJ0TSp6X-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="980" as="sourcePoint" />
+            <mxPoint x="550" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-27" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VCs4Zbao1CasMJ0TSp6X-16" target="VCs4Zbao1CasMJ0TSp6X-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="980" as="sourcePoint" />
+            <mxPoint x="550" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-28" value="&lt;h1&gt;Polling vs Websockets&lt;/h1&gt;&lt;div&gt;Polling fits sa we would need to poll like in 10 sec&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1370" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-33" value="PUBSUB&lt;br&gt;Producer :,UserId,&amp;nbsp; postId&lt;br&gt;Consumer : insert that feed into people following&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1370" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="VCs4Zbao1CasMJ0TSp6X-34" value="Celebrity : Feed inserts are not haappening from PUBSUB system will happen directly from the Read feeds WebApp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1460" width="180" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
